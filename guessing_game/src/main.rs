@@ -12,6 +12,7 @@ fn main() {
         println!("Please input you guess. ");
 
         // let guess: String = String ::new()
+        let mut name = String::new(); // just a random string variable name to store name attribute
         let mut guess = String::new(); // to make variable mutable we add mut before the name of the variable
 
         io::stdin()
@@ -38,3 +39,4 @@ fn main() {
         }
     }
 }
+// this is a random comment just to commit something today . i havent done anything what a shame!
